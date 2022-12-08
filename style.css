@@ -1,0 +1,70 @@
+
+body{
+  background-color: antiquewhite;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0;
+}
+#prf{
+  display: flex;
+}
+#name{
+  margin-top: 20px;
+  margin-right: 30px;
+  border-width: 100px;
+  /* color: aqua; */
+}
+ #foodwrapper{
+  /* display: flex; */
+  border-width: 3px;
+} 
+/* .food{
+  border-bottom: 1px solid } */
+
+dd{
+  display: none;
+}
+
+dt{
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid
+}
+
+dt::after{
+  content:'+';
+  position: absolute;
+  top: 8px;
+  right: 16px
+}
+
+dl>div.appear dd{
+  display:block;
+}
+/* #aiue{
+  display: none;
+} */
+/* #weightwrapper{
+  display: flex;
+  margin-bottom: 10px;
+}
+#weight{
+  margin-right: 75px;
+} */
+/* #walkwrapper{
+  display: flex;
+  margin-bottom: 10px;
+}
+#walk{
+  margin-right: 70px;
+} */
+/* #cdnwrapper{
+  display: flex;
+  margin-bottom: 10px;
+} */
+#radio{
+  margin-left: 70px;
+}
